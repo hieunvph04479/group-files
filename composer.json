@@ -1,0 +1,27 @@
+{
+    "name": "tubocms/group-files",
+    "description": "Gộp các file thành 1",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Nguyen Viet Hieu",
+            "email": "hieunvph04479@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tubocms\\GroupFile\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tubocms\\GroupFile\\Providers\\GroupFileServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
